@@ -51,14 +51,5 @@ void number_to_str(float number, char *str,int afterdecimal){
 		temp = (int)number;
 		str[position] = temp+'0';
 		number = number - temp;
-		/*str[i] = number / 10;
-		number = number / 10;
-		number = number - number / 10;
-		number = number - (((int)(number))%10);
-		if (i == afterdecimal - 1)
-		{
-			str[i + 1] = '.';
-			i++;
-		}*/
 	}
 }
